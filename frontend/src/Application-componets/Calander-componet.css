@@ -1,0 +1,42 @@
+.grid{
+    display: grid;
+    
+    width: 130vh;
+    border: solid black 1px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(1440,1fr);
+    
+    background-color:  #bb9090;
+    height: 700px;
+    
+   
+    
+}
+
+.Weekdayitem {
+    grid-row: 1;
+    text-align: center;
+    font-weight: bold;
+
+    border-bottom: solid 1px lightgray;
+    background-color: #f0f0f0; 
+}
+
+
+
+.houritem {
+    
+    grid-column: 1;
+    text-align: center;
+
+    border-top: solid 1px lightgray;
+    
+}
+.minitem {
+    grid-column: 1;
+    border-right: 1px;
+    
+  
+
+   
+}
