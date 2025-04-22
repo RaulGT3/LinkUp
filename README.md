@@ -21,8 +21,7 @@ LinkUp is a powerful, real-time calendar application designed for group collabor
 ### Backend:
 - **Express.js**: A Node.js framework to handle API routes and HTTP requests.
 - **WebSockets**: For real-time communication between users.
-- **PostgreSQL**: A relational database to store structured data like events and calendars.
-- **MongoDB**: A NoSQL database for quick-read/write operations, used for messaging and invatations.
+- **MongoDB**: A NoSQL database for quick-read/write operations
 
 ## How It Works
 
